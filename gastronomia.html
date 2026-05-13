@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastronomía europea</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  Gastronomía de Europa
+</header>
+
+<nav>
+  <a href="index.html">Lugares</a>
+  <a href="gastronomia.html">Gastronomía</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
+
+<main class="grid-principal">
+
+  <!-- COLUMNA IZQUIERDA: INTRO + GALERÍA -->
+  <section>
+    <h2>Sabores de Europa</h2>
+    <p>
+      Europa es un continente lleno de tradiciones culinarias únicas. Cada país
+      ofrece platos emblemáticos que reflejan su historia, su clima y su cultura.
+    </p>
+
+    <h3 style="margin-top:1.5rem;">Platos destacados</h3>
+
+    <!-- ESPAÑA -->
+    <article class="tarjeta-pais">
+      <h4><span class="pais">España · Paella</span></h4>
+      <p>Arroz con marisco o carne, típico de Valencia.</p>
+      <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2026/02/paella-de-marisco-1024x683.jpg"
+           alt="Paella española" style="width:100%;border-radius:10px;margin-top:0.5rem;">
+    </article>
+
+    <!-- ITALIA -->
+    <article class="tarjeta-pais">
+      <h4><span class="pais">Italia · Pizza</span></h4>
+      <p>La pizza napolitana es famosa por su masa suave y su sabor auténtico.</p>
+      <img src="https://imag.bonviveur.com/pizza-margarita.webp"
+           alt="Pizza italiana" style="width:100%;border-radius:10px;margin-top:0.5rem;">
+    </article>
+
+    <!-- ALEMANIA -->
+    <article class="tarjeta-pais">
+      <h4><span class="pais">Alemania · Bratwurst</span></h4>
+      <p>Salchicha tradicional servida con pan y mostaza.</p>
+      <img src="https://kommen.es/blog/wp-content/uploads/2022/03/tipos_salchichas_alemanas.webp"
+           alt="Bratwurst alemana" style="width:100%;border-radius:10px;margin-top:0.5rem;">
+    </article>
+
+    <!-- FRANCIA -->
+    <article class="tarjeta-pais">
+      <h4><span class="pais">Francia · Crêpes</span></h4>
+      <p>Finísimas tortitas dulces o saladas, típicas de Bretaña.</p>
+      <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80"
+           alt="Crêpes francesas" style="width:100%;border-radius:10px;margin-top:0.5rem;">
+    </article>
+
+    <!-- PORTUGAL -->
+    <article class="tarjeta-pais">
+      <h4><span class="pais">Portugal · Bacalao</span></h4>
+      <p>El bacalao es uno de los ingredientes más representativos del país.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-r5HEqlGMicZGPfPLmkC-genABIUXOYKc3A&s"
+           alt="Bacalao portugués" style="width:100%;border-radius:10px;margin-top:0.5rem;">
+    </article>
+
+    <!-- GRECIA -->
+    <article class="tarjeta-pais">
+      <h4><span class="pais">Grecia · Moussaka</span></h4>
+      <p>Plato al horno con berenjena, carne y bechamel.</p>
+      <img src="https://www.recetasderechupete.com/wp-content/uploads/2019/09/Musaka-griega.jpg"
+           alt="Moussaka griega" style="width:100%;border-radius:10px;margin-top:0.5rem;">
+    </article>
+
+  </section>
+
+  <!-- COLUMNA DERECHA: TABLA COMPLETA -->
+  <section>
+    <h2>Platos típicos por país</h2>
+    <p>
+      Comparativa de los platos más representativos de cada país europeo.
+    </p>
+
+    <table class="tabla-gastro">
+      <thead>
+        <tr>
+          <th>País</th>
+          <th>Plato</th>
+          <th>Descripción</th>
+          <th>Precio medio (€)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>España</td>
+          <td>Paella</td>
+          <td>Arroz con marisco o carne.</td>
+          <td>15–20</td>
+        </tr>
+        <tr>
+          <td>Italia</td>
+          <td>Pizza</td>
+          <td>Masa fina con tomate y mozzarella.</td>
+          <td>10–15</td>
+        </tr>
+        <tr>
+          <td>Alemania</td>
+          <td>Bratwurst</td>
+          <td>Salchicha a la parrilla.</td>
+          <td>8–12</td>
+        </tr>
+        <tr>
+          <td>Francia</td>
+          <td>Crêpes</td>
+          <td>Tortitas dulces o saladas.</td>
+          <td>6–10</td>
+        </tr>
+        <tr>
+          <td>Portugal</td>
+          <td>Bacalao</td>
+          <td>Pescado a la brasa o al horno.</td>
+          <td>12–18</td>
+        </tr>
+        <tr>
+          <td>Grecia</td>
+          <td>Moussaka</td>
+          <td>Berenjena, carne y bechamel.</td>
+          <td>10–16</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">*Precios orientativos según ciudad y temporada.</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <details style="margin-top:1rem;">
+      <summary>Consejo para comer bien y barato</summary>
+      <p>
+        Busca menús del día, evita zonas turísticas y prueba los mercados locales.
+      </p>
+    </details>
+  </section>
+
+</main>
+
+<aside>
+  <h2>Curiosidad</h2>
+  <p>En algunos países se cobra un pequeño suplemento por el pan o el servicio.</p>
+</aside>
+
+<footer>
+  © 2026 Guía de viajes por Europa
+</footer>
+
+</body>
+</html>
