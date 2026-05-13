@@ -53,5 +53,5 @@ The project follows a clean and organised structure.
 
 
 🚀 Authors
-NameGitHubJoaquín Gutiérrez  Alejandro de la Osa
+Joaquín Gutiérrez  Alejandro de la Osa
 Project developed as a web development practice for Module 20.
